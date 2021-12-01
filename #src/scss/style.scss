@@ -1,51 +1,54 @@
-
-
 // ========ПЕРЕМЕННЫЕ=====================
 // минимальная ширина
-$minWidth:320px;
+$minWidth: 320px;
 // ширина полотна
-$maxWidth:1152;  
+$maxWidth: 1152;
 //ширина контейнера
-$maxWidthContainer:856;
+$maxWidthContainer: 1050;
 // брейкпоинты на адаптив
-$md1: $maxWidthContainer+12;
-$md1:991.98;
-$md2:767.98;
-$md3:479.98;
-
+$md1: $maxWidthContainer + 12;
+$md1: 991.98 + px;
+$md2: 767.98 + px;
+$md3: 479.98 + px;
 
 // ========ПЕРЕМЕННЫЕ=====================
 
 // ==ОСНОВНАЯ СЕТКА========================================
 
-._container{
-	max-width: $maxWidthContainer + px;
-	margin: 0 auto;
-	@media (max-width: $md1+px){
-		max-width: 970px;
-	}
-	@media (max-width: $md2+px){
-		max-width: 750px;
-	}
-	@media (max-width: $md3+px){
-		max-width: none;
-		padding: 0 10px;
-	}
+._container {
+  max-width: $maxWidthContainer + px;
+  margin: 0 auto;
+  @media (max-width: $md1) {
+    max-width: 970px;
+  }
+  @media (max-width: $md2) {
+    max-width: 750px;
+  }
+  @media (max-width: $md3) {
+    max-width: none;
+    padding: 0 10px;
+  }
 }
 
 // ==ОСНОВНАЯ СЕТКА========================================
-
-
 
 @import "mixins";
 @import "fonts";
 @import "icons";
 @import "reset";
+// header
+@import "header";
+// container
+@import "./parts/main-title-with-btn.scss";
+@import "./parts/row-list.scss";
+@import "./parts/cards-item.scss";
+//footer
+@import "footer";
 
 body {
-	color:#21243D;
-	font-size: 14px;
-	// &._lock{
-	// 	overflow: hidden;
-	// }
+  color: #21243d;
+  font-size: 14px;
+  // &._lock{
+  // 	overflow: hidden;
+  // }
 }

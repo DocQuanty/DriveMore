@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+  @@include('_head.html',{ "title":"HomePage", })
 
-@@include('_head.html',{
-"title":"HomePage",
-})
-
-<body>
-
-	@@include('fonts.html')
-	<div class="wrapper">
-		@@include('_header.html',{})
-		<main class="page">
-
-		</main>
-		@@include('_footer.html',{})
-	</div>
-	@@include('_js.html',{})
-</body>
-
+  <body>
+    @@include('fonts.html')
+    <div class="wrapper">
+      @@include('_header.html',{})
+      <main class="page">
+        <div class="_container">
+          @@include('./parts/main-title-with-btn.html',{})
+          @@include('./parts/row-list.html',{})
+        </div>
+      </main>
+      @@include('_footer.html',{})
+    </div>
+    @@include('_js.html',{})
+  </body>
 </html>
