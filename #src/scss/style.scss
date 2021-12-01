@@ -1,0 +1,51 @@
+
+
+// ========ПЕРЕМЕННЫЕ=====================
+// минимальная ширина
+$minWidth:320px;
+// ширина полотна
+$maxWidth:1152;  
+//ширина контейнера
+$maxWidthContainer:856;
+// брейкпоинты на адаптив
+$md1: $maxWidthContainer+12;
+$md1:991.98;
+$md2:767.98;
+$md3:479.98;
+
+
+// ========ПЕРЕМЕННЫЕ=====================
+
+// ==ОСНОВНАЯ СЕТКА========================================
+
+._container{
+	max-width: $maxWidthContainer + px;
+	margin: 0 auto;
+	@media (max-width: $md1+px){
+		max-width: 970px;
+	}
+	@media (max-width: $md2+px){
+		max-width: 750px;
+	}
+	@media (max-width: $md3+px){
+		max-width: none;
+		padding: 0 10px;
+	}
+}
+
+// ==ОСНОВНАЯ СЕТКА========================================
+
+
+
+@import "mixins";
+@import "fonts";
+@import "icons";
+@import "reset";
+
+body {
+	color:#21243D;
+	font-size: 14px;
+	// &._lock{
+	// 	overflow: hidden;
+	// }
+}
