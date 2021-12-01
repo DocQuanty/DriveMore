@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 ._container {
-  max-width: 856px;
+  max-width: 1050px;
   margin: 0 auto;
 }
 
@@ -182,7 +182,7 @@ body button::-moz-focus-inner {
 }
 
 body {
-  color: #21243D;
+  color: #21243d;
   font-size: 14px;
 }
 
