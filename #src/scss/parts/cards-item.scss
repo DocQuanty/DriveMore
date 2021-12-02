@@ -1,0 +1,58 @@
+.cards-item {
+  padding: 35px 40px;
+  width: 230px;
+  background-color: #fff;
+  &__card {
+  }
+}
+.card {
+  &__logo-card {
+    margin-bottom: 20px;
+  }
+
+  &__logo-card-arrow {
+  }
+
+  &__title-card {
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252b42;
+  }
+
+  &__text-card {
+    margin-bottom: 20px;
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    letter-spacing: 0.2px;
+    /* second-text-color */
+
+    color: #737373;
+  }
+
+  &__btn-card {
+    padding: 15px 10px;
+    text-align: center;
+    border: 1px solid #00a0c1;
+    border-radius: 37px;
+    &::after {
+      content: url("../../img/icon/arrow.svg");
+      width: 26px;
+      height: 20px;
+    }
+    button {
+      position: relative;
+      background-color: transparent;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 28px;
+      letter-spacing: 0.2px;
+      color: #00a0c1;
+    }
+  }
+}
