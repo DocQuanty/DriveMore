@@ -1,13 +1,43 @@
 .cards-item {
-  padding: 35px 40px;
-  width: 230px;
-  background-color: #fff;
+  display: flex;
+  margin-bottom: 200px;
+
   &__card {
+    flex: 0 0 230px;
+    background-color: #fff;
+    padding: 35px 40px;
+    position: relative;
+    &:hover {
+      background-color: #00a0c1;
+
+      .card__btn-card {
+        background-color: #fff;
+        &::after {
+          display: none;
+        }
+      }
+      .card__title-card {
+        color: #fff;
+      }
+      .card__text-card {
+        color: #fff;
+      }
+      svg {
+        fill: #fff;
+      }
+    }
   }
 }
 .card {
+  &__card-wrapper {
+    height: 100%;
+  }
   &__logo-card {
+    min-height: 47px;
     margin-bottom: 20px;
+    svg {
+      fill: #00a0c1;
+    }
   }
 
   &__logo-card-arrow {
@@ -15,6 +45,7 @@
 
   &__title-card {
     margin-bottom: 20px;
+    min-height: 24px;
     font-family: Montserrat;
     font-size: 16px;
     line-height: 24px;
@@ -23,23 +54,25 @@
   }
 
   &__text-card {
-    margin-bottom: 20px;
+    min-height: 40px;
+    margin-bottom: 30px;
     font-family: Montserrat;
     font-weight: bold;
     font-size: 14px;
     line-height: 20px;
-    /* or 143% */
     letter-spacing: 0.2px;
-    /* second-text-color */
-
     color: #737373;
   }
 
   &__btn-card {
-    padding: 15px 10px;
+    position: absolute;
+    bottom: 0;
+    display: inline;
+    padding: 10px 30px;
     text-align: center;
     border: 1px solid #00a0c1;
-    border-radius: 37px;
+    border-radius: 34px;
+    cursor: pointer;
     &::after {
       content: url("../../img/icon/arrow.svg");
       width: 26px;
