@@ -19,10 +19,10 @@ $md3: 479.98 + px;
   max-width: $maxWidthContainer + px;
   margin: 0 auto;
   @media (max-width: $md1) {
-    max-width: 970px;
+    max-width: 930px;
   }
   @media (max-width: $md2) {
-    max-width: 750px;
+    max-width: 730px;
   }
   @media (max-width: $md3) {
     max-width: none;
