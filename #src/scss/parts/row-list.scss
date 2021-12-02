@@ -1,6 +1,7 @@
 .row-list {
   &__container {
     margin: 0 auto;
+    //  margin-top: 100px;
     max-width: 1050px;
     height: 120px;
     vertical-align: center;
@@ -8,19 +9,26 @@
     justify-content: space-around;
     align-items: center;
     background-color: #fff;
-    font-family: Montserrat;
     background-color: rgb(100, 29, 29);
-    @media (max-width: $md3) {
+    font-family: Montserrat;
+
+    @media (max-width: $md2) {
       flex-direction: column;
-      min-height: 530px;
+      min-height: 600px;
+      background-color: transparent;
       // padding: 0 10px;
+      height: none;
     }
   }
   &__icon-text {
     display: flex;
+    background-color: rgb(100, 29, 29);
     @media (max-width: $md2) {
-      height: none;
-      margin-bottom: 80px;
+      justify-content: center;
+      align-items: center;
+      width: 230px;
+      height: 120px;
+      margin-bottom: 30px;
     }
     &_icon {
       padding-right: 15px;
