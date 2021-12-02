@@ -1,5 +1,9 @@
 .footer {
   &__wrapper-footer {
+    background-color: #252b42;
+    min-height: 338px;
+    padding: 10px;
+    font-family: Montserrat;
   }
 
   &__container-footer {
@@ -9,49 +13,61 @@
   }
 
   &__flex-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 960px;
+    margin: 0 auto;
   }
 }
-.flex {
-  &__get-in {
+.flex-footer-list {
+  &__text-above-logo {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #fff;
+    max-width: 220px;
   }
-
-  &__company-info {
-  }
-
-  &__features {
-  }
-
-  &__resources {
-  }
-}
-.get-in {
   &__title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
   }
 
   &__text {
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    ul {
+      li {
+        margin-bottom: 10px;
+        a {
+          color: #fff;
+        }
+      }
+    }
   }
 
-  &__logos {
-  }
-}
-.company-info {
-  &__title {
-  }
+  .flex-footer-list {
+    &__logos {
+      // &_facebook {
+      // }
 
-  &__list {
-  }
-}
-.features {
-  &__title {
-  }
+      // &_instagram {
+      // }
 
-  &__list {
-  }
-}
-.resources {
-  &__title {
-  }
+      // &_twitter {
+      // }
 
-  &__list {
+      // &_youtube {
+      // }
+    }
   }
 }
