@@ -304,4 +304,14 @@ body {
     max-width: none;
     padding: 0 10px;
   }
+
+  .cards-item {
+    display: block;
+    width: 230px;
+    margin: 0px auto;
+  }
+
+  .cards-item__card {
+    margin-bottom: 30px;
+  }
 }
