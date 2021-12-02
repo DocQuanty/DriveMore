@@ -22,6 +22,7 @@
 }
 .flex-footer-list {
   &__text-above-logo {
+    margin-bottom: 25px;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -57,17 +58,9 @@
 
   .flex-footer-list {
     &__logos {
-      // &_facebook {
-      // }
-
-      // &_instagram {
-      // }
-
-      // &_twitter {
-      // }
-
-      // &_youtube {
-      // }
+      max-width: 156px;
+      display: flex;
+      justify-content: space-between;
     }
   }
 }

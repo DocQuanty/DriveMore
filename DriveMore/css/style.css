@@ -202,6 +202,7 @@ body button::-moz-focus-inner {
 }
 
 .flex-footer-list__text-above-logo {
+  margin-bottom: 25px;
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -234,6 +235,16 @@ body button::-moz-focus-inner {
 
 .flex-footer-list__text ul li a {
   color: #fff;
+}
+
+.flex-footer-list .flex-footer-list__logos {
+  max-width: 156px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 body {
