@@ -1,5 +1,24 @@
 <header class="header">
-    <div class="header__content _container">
-
+  <div class="header__content">
+    <div class="header__menu menu _container">
+      <div class="menu__icon icon-menu">
+        <span>@@include("./img/icon/logo.svg",{})</span>
+      </div>
+      <nav class="header-menu__body">
+        <ul class="header-menu__list">
+          <li><a href="/Home" class="menu__link">Home</a></li>
+          <li><a href="/Product" class="menu__link">Product</a></li>
+          <li><a href="/Pricing" class="menu__link">Pricing</a></li>
+          <li><a href="/Contact" class="menu__link">Contact</a></li>
+        </ul>
+        <div class="header-menu__icons">
+          <button>@@include('./img/icon/loop.svg',{})</button>
+          <button>@@include('./img/icon/basket.svg',{})</button>
+        </div>
+        <div class="heder-menu__btn">
+          <button>menu</button>
+        </div>
+      </nav>
     </div>
+  </div>
 </header>
