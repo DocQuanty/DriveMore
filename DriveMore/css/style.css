@@ -318,4 +318,33 @@ body {
     max-width: none;
     padding: 0 10px;
   }
+
+  .main-title__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+  }
+
+  .main-title__buttons {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: 185px;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .main-title__buttons_get-quote {
+    margin-bottom: 25px;
+  }
+
+  .main-title__buttons_learn-more {
+    max-width: 150px;
+    padding: 10px 30px;
+    margin-bottom: 5px;
+  }
 }
