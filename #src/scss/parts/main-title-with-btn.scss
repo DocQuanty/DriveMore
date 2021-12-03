@@ -1,0 +1,51 @@
+.main-title {
+  font-family: Montserrat;
+  margin-top: 160px;
+  &__title {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  &__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    max-width: 540px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  &__buttons {
+    margin: 0 auto;
+    max-width: 380px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin-bottom: 130px;
+    &_get-quote {
+      background-color: #ffa62b;
+      padding: 10px 35px;
+      border-radius: 40px;
+      color: #fff;
+    }
+    &_learn-more {
+      background: transparent;
+      border: 1px solid #fff;
+      padding: 10px 35px;
+      border-radius: 40px;
+      color: #fff;
+    }
+  }
+}

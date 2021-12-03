@@ -181,6 +181,66 @@ body button::-moz-focus-inner {
   border: 0;
 }
 
+.main-title {
+  font-family: Montserrat;
+  margin-top: 160px;
+}
+
+.main-title__title {
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 80px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.main-title__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.main-title__buttons {
+  margin: 0 auto;
+  max-width: 380px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  margin-bottom: 130px;
+}
+
+.main-title__buttons_get-quote {
+  background-color: #ffa62b;
+  padding: 10px 35px;
+  border-radius: 40px;
+  color: #fff;
+}
+
+.main-title__buttons_learn-more {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px 35px;
+  border-radius: 40px;
+  color: #fff;
+}
+
 .footer__wrapper-footer {
   background-color: #252b42;
   min-height: 338px;
