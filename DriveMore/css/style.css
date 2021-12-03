@@ -197,6 +197,7 @@ body button::-moz-focus-inner {
   background-color: #fff;
   background-color: #fff;
   font-family: Montserrat;
+  margin-bottom: 120px;
 }
 
 .row-list__icon-text {
