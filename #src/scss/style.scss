@@ -16,6 +16,7 @@ $md3: 479.98 + px;
 // ==ОСНОВНАЯ СЕТКА========================================
 
 ._container {
+  position: relative;
   max-width: $maxWidthContainer + px;
   margin: 0 auto;
   @media (max-width: $md1) {
@@ -53,5 +54,12 @@ body {
   // }
   .wrapper {
     background-image: url("../img/background/background.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    @media (max-width: $md1) {
+      background-position: top;
+    }
+  }
+  .background-wrap {
   }
 }

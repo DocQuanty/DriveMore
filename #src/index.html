@@ -8,8 +8,10 @@
       @@include('_header.html',{})
       <main class="page">
         <div class="_container">
-          @@include('./parts/main-title-with-btn.html',{})
-          @@include('./parts/row-list.html',{})
+          <div class="background-wrap">
+            @@include('./parts/main-title-with-btn.html',{})
+            @@include('./parts/row-list.html',{})
+          </div>
           @@include("./parts/cards-item.html",{})
         </div>
       </main>
