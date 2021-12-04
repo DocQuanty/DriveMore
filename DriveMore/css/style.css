@@ -189,13 +189,13 @@ body button::-moz-focus-inner {
 }
 
 .cards-item__card {
+  position: relative;
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 230px;
-          flex: 1 1 230px;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%;
   margin-right: 30px;
   background-color: #fff;
   padding: 35px 40px;
-  position: relative;
 }
 
 .cards-item__card:hover {
@@ -257,6 +257,7 @@ body button::-moz-focus-inner {
 }
 
 .card__btn-card {
+  white-space: nowrap;
   position: absolute;
   bottom: 0;
   display: inline;
@@ -303,13 +304,17 @@ body {
     max-width: 100%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 
   .cards-item__card {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 50%;
-            flex: 0 0 50%;
+        -ms-flex: 0 1 50%;
+            flex: 0 1 50%;
     margin-bottom: 30px;
+    margin-right: 5px;
   }
 }
 
@@ -326,6 +331,10 @@ body {
   }
 
   .cards-item__card {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin-right: 0;
     margin-bottom: 15px;
   }
 }
