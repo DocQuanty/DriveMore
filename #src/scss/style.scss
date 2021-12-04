@@ -44,6 +44,7 @@ $md3: 479.98 + px;
 @import "./parts/row-list.scss";
 @import "./parts/cards-item.scss";
 @import "./parts/providing-business.scss";
+@import "./parts/form-registration.scss";
 //footer
 @import "footer";
 
@@ -59,23 +60,23 @@ body {
       background-position: top;
     }
   }
-  .background-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background-image: url("../img/background/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: left;
-    width: 100%;
-    height: 100%;
-    // max-height: 740px;
-    @media (max-width: $md2) {
-      // height: 1767px;
-      background-position: center;
-    }
-  }
+  // .background-wrapper {
+  //   position: absolute;
+  //   top: 0;
+  //   left: 0;
+  //   z-index: -1;
+  //   background-image: url("../img/background/background.png");
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   background-position: left;
+  //   width: 100%;
+  //   height: 100%;
+  //   // max-height: 740px;
+  //   @media (max-width: $md2) {
+  //     // height: 1767px;
+  //     background-position: center;
+  //   }
+  // }
   .background-darckblue {
     // width: 100%;
     // height: 100%;
