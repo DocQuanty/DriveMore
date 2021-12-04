@@ -522,7 +522,6 @@ body button::-moz-focus-inner {
   color: #fff;
   background-color: #252b42;
   font-family: Montserrat;
-  padding-top: 100px;
 }
 
 .providing-business__wrapper {
@@ -575,6 +574,11 @@ body button::-moz-focus-inner {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 330px;
+}
+
+.providing-business__content_video img {
+  width: 600px;
+  height: 440px;
 }
 
 .providing-business__content_title {
@@ -738,6 +742,23 @@ body .wrapper {
 @media (max-width: 991.98px) {
   ._container {
     max-width: 930px;
+  }
+
+  .providing-business__main-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .providing-business__content_video img {
+    max-width: 100%;
+    height: auto;
+    padding: 0 40px;
+    margin-bottom: 70px;
   }
 }
 
