@@ -186,6 +186,7 @@ body button::-moz-focus-inner {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 200px;
+  cursor: pointer;
 }
 
 .cards-item__card {

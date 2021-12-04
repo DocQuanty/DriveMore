@@ -1,6 +1,7 @@
 .cards-item {
   display: flex;
   margin-bottom: 200px;
+  cursor: pointer;
   @media (max-width: $md2) {
     max-width: 100%;
     flex-wrap: wrap;
